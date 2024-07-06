@@ -7,11 +7,20 @@
     "build": "NODE_ENV=production eleventy"
   },
   "dependencies": {
+    "aws-amplify": "^6.3.8",
     "eleventy-plugin-seo": "0.5.2",
     "luxon": "^3.4.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^2.0.0",
+    "@aws-amplify/backend": "^1.0.4",
+    "@aws-amplify/backend-cli": "^1.1.0",
+    "aws-cdk": "^2.148.0",
+    "aws-cdk-lib": "^2.148.0",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.23.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
   },
   "engines": {
     "node": "14"
